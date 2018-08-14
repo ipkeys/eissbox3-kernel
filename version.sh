@@ -4,7 +4,7 @@ ARCH=$(uname -m)
 
 config="omap2plus_defconfig"
 
-build_prefix="-ti-r"
+build_prefix="-EISSBox3"
 branch_prefix="ti-linux-"
 branch_postfix=".y"
 bborg_branch="4.14"
@@ -34,7 +34,7 @@ KERNEL_REL=4.14
 KERNEL_TAG=${KERNEL_REL}.62
 kernel_rt=".59-rt37"
 #Kernel Build
-BUILD=${build_prefix}69
+BUILD=${build_prefix}
 
 #v4.X-rcX + upto SHA
 #prev_KERNEL_SHA=""
