@@ -569,6 +569,10 @@ beaglebone () {
 	fi
 }
 
+eissbox3 () {
+	dir 'eissbox3'
+}
+
 ###
 #backports
 reverts
@@ -576,6 +580,7 @@ drivers
 soc
 beaglebone
 dir 'drivers/ti/sgx'
+eissbox3
 
 packaging () {
 	echo "dir: packaging"

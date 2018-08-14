@@ -1,0 +1,26 @@
+From 3547b882026de818ffa659437c8341596578af7a Mon Sep 17 00:00:00 2001
+From: Yuriy Kozhynov <yuriy@kozhynov.com>
+Date: Tue, 14 Aug 2018 15:46:11 -0400
+Subject: [PATCH 7502/7503] Added EISSBox3 Device Tree
+
+---
+ arch/arm/boot/dts/Makefile | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
+index d95f709..daf917c 100644
+--- a/arch/arm/boot/dts/Makefile
++++ b/arch/arm/boot/dts/Makefile
+@@ -656,7 +656,8 @@ dtb-$(CONFIG_SOC_AM33XX) += \
+ 	am335x-shc.dtb \
+ 	am335x-sbc-t335.dtb \
+ 	am335x-sl50.dtb \
+-	am335x-wega-rdk.dtb
++	am335x-wega-rdk.dtb \
++	am3352-eissbox3.dtb
+ dtb-$(CONFIG_ARCH_OMAP4) += \
+ 	omap4-droid4-xt894.dtb \
+ 	omap4-duovero-parlor.dtb \
+-- 
+2.7.4
+
