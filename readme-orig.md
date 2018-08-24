@@ -1,4 +1,8 @@
-This is just a set of scripts to rebuild a known working kernel for EISSBox3 device.
+This is just a set of scripts to rebuild a known working kernel for ARM devices.
+
+Script Bugs: "bugs@rcn-ee.com"
+
+Note, for older git tag's please use: https://github.com/RobertCNelson/yakbuild
 
 Dependencies: GCC ARM Cross ToolChain
 
@@ -33,15 +37,7 @@ Optional: Build Debian Package:
 
 Development/Hacking:
 
-first run (to setup baseline tree): 
-```
-./build_kernel.sh
-```
-
+first run (to setup baseline tree): ./build_kernel.sh
 then modify files under KERNEL directory
-then run (to rebuild with your changes): 
-```
-./tools/rebuild.sh
-```
-
+then run (to rebuild with your changes): ./tools/rebuild.sh
 
