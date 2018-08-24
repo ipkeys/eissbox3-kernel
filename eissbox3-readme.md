@@ -10,7 +10,7 @@ Dependencies:
 	http://www.linaro.org/downloads/
 	
 	If you've already download Linaro ToolChain and would like to use it,
-	just modify the ==CC== variable in system.sh to point to ToolChain.
+	just modify the ${CC} variable in system.sh to point to ToolChain.
 
 
 1. Linux Kernel Source
@@ -24,7 +24,7 @@ Dependencies:
 
 **Note:**
 If you've already cloned Torvald's tree and would like to save some hard drive
-space, just modify the ==LINUX_GIT== variable in system.sh to point to your current git clone directory.
+space, just modify the ${LINUX_GIT} variable in system.sh to point to your current git clone directory.
 
 Build Kernel Image:
 
