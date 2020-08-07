@@ -4,7 +4,7 @@ ARCH=$(uname -m)
 
 config="omap2plus_defconfig"
 
-build_prefix="-ti-r"
+build_prefix="-EISSbox3"
 branch_prefix="ti-linux-"
 branch_postfix=".y"
 bborg_branch="4.19"
@@ -23,8 +23,8 @@ KERNEL_ARCH=arm
 #toolchain="gcc_linaro_gnueabihf_4_9"
 #toolchain="gcc_linaro_gnueabihf_5"
 #toolchain="gcc_linaro_gnueabihf_6"
-#toolchain="gcc_linaro_gnueabihf_7"
-toolchain="gcc_arm_gnueabihf_8"
+toolchain="gcc_linaro_gnueabihf_7"
+#toolchain="gcc_arm_gnueabihf_8"
 #toolchain="gcc_arm_gnueabihf_9"
 #arm64
 #KERNEL_ARCH=arm64
@@ -39,7 +39,7 @@ KERNEL_REL=4.19
 KERNEL_TAG=${KERNEL_REL}.94
 kernel_rt=".94-rt39"
 #Kernel Build
-BUILD=${build_prefix}45
+BUILD=${build_prefix}
 
 #v5.X-rcX + upto SHA
 #prev_KERNEL_SHA=""

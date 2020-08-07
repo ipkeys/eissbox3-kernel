@@ -2788,6 +2788,9 @@ Method: generic
 Machine: Texas Instruments Keystone 2 Lamarr EVM
 Method: generic
 
+Machine: TI AM3352 EISSBox3
+Method: generic
+
 Machine: TI AM3359 ICE-V2 - dual CPSW
 Method: generic
 

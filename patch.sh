@@ -610,11 +610,16 @@ soc () {
 	dir 'bootup_hacks'
 }
 
+eissbox3 () {
+	dir 'eissbox3'
+}
+
 ###
 backports
 #reverts
 drivers
 soc
+eissbox3
 
 packaging () {
 	do_backport="enable"
