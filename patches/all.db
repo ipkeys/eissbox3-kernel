@@ -331,6 +331,9 @@ Method: generic
 Machine: BCM28155 AP board
 Method: generic
 
+Machine: BeagleBoard.org BeagleBone AI
+Method: generic
+
 Machine: Beckhoff CX9020 Embedded PC
 Method: generic
 
@@ -2179,6 +2182,9 @@ Method: generic
 Machine: Seagate Personal Cloud (Cumulus, SRN21C)
 Method: generic
 
+Machine: SeeedStudio BeagleBone Green Gateway
+Method: generic
+
 Machine: Sharp-LQ035Q7
 Method: generic
 
@@ -2509,7 +2515,16 @@ Method: generic
 Machine: TI AM5728 BeagleBoard-X15 rev C
 Method: generic
 
+Machine: TI AM5728 BeagleBoard-X15 rev C on GSSI mainboard
+Method: generic
+
+Machine: TI AM5728 EVM
+Method: generic
+
 Machine: TI AM5728 IDK
+Method: generic
+
+Machine: TI AM572x EVM Rev A3
 Method: generic
 
 Machine: TI AM572x IDK-LCD-OSD-Display
