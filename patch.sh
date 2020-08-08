@@ -495,9 +495,9 @@ reverts () {
 drivers () {
 	dir 'drivers/ar1021_i2c'
 	dir 'drivers/rproc'
-	dir 'drivers/sound'
+	#dir 'drivers/sound'
 	dir 'drivers/spi'
-	dir 'drivers/tps65217'
+	#dir 'drivers/tps65217'
 
 	dir 'drivers/ti/overlays'
 	dir 'drivers/ti/cpsw'
@@ -511,11 +511,16 @@ soc () {
 	dir 'bootup_hacks'
 }
 
+eissbox3 () {
+	dir 'eissbox3'
+}
+
 ###
 backports
 reverts
 drivers
 soc
+eissbox3
 
 packaging () {
 	#do_backport="enable"
