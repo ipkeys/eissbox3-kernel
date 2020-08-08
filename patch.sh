@@ -497,7 +497,7 @@ drivers () {
 	dir 'drivers/rproc'
 	#dir 'drivers/sound'
 	dir 'drivers/spi'
-	#dir 'drivers/tps65217'
+	#dir 'drivers/tps65217' # eissbox3 used "tps65217_pwrbutton"
 
 	dir 'drivers/ti/overlays'
 	dir 'drivers/ti/cpsw'
