@@ -172,8 +172,7 @@ rt_cleanup () {
 rt () {
 	rt_patch="${KERNEL_REL}${kernel_rt}"
 
-	#v5.4.x
-	#${git_bin} revert --no-edit 4a5c9ae67b12f628fdc8f9ffac7e5677d510dd5e
+	#${git_bin} revert --no-edit xyz
 
 	#regenerate="enable"
 	if [ "x${regenerate}" = "xenable" ] ; then
@@ -405,7 +404,7 @@ patch_backports (){
 }
 
 backports () {
-	backport_tag="v5.7.10"
+	backport_tag="v5.8.16"
 
 	subsystem="greybus"
 	#regenerate="enable"
@@ -483,7 +482,7 @@ reverts () {
 	## notes
 	##git revert --no-edit xyz -s
 
-	${git} "${DIR}/patches/reverts/0001-Revert-scripts-headers_install-Exit-with-error-on-co.patch"
+	#${git} "${DIR}/patches/reverts/0001-Revert-xyz.patch"
 
 	if [ "x${regenerate}" = "xenable" ] ; then
 		wdir="reverts"
@@ -517,7 +516,7 @@ eissbox3 () {
 
 ###
 backports
-reverts
+#reverts
 drivers
 soc
 eissbox3

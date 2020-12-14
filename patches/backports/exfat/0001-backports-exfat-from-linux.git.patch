@@ -1,6 +1,6 @@
-From 5f2bd37bf88ec1a0f26af13489a1c57c686f30ac Mon Sep 17 00:00:00 2001
+From ca81ffc30ff9df7019ec7ea8d4e788c0a3280d67 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
-Date: Thu, 23 Jul 2020 14:57:34 -0500
+Date: Tue, 27 Oct 2020 16:52:57 -0500
 Subject: [PATCH] backports: exfat: from: linux.git
 
 Reference: v5.6.19
@@ -6912,5 +6912,5 @@ index 58c7d66060f7..b81d2a87b82e 100644
  };
  
 -- 
-2.27.0
+2.28.0
 
